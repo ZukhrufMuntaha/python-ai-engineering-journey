@@ -2,6 +2,10 @@
 
 AI StudyMate is an AI-powered study assistant built with Python and Streamlit. It helps students summarize notes, generate quizzes, and understand difficult topics using AI.
 
+## 📸 App Screenshot
+
+![AI StudyMate App](ai-studymate.png)
+
 ## ✨ Features
 
 ### 📝 Notes Summarizer
