@@ -1,176 +1,83 @@
-\# 🎓 AI StudyMate
-
-
+# 🎓 AI StudyMate
 
 AI StudyMate is an AI-powered study assistant built with Python and Streamlit. It helps students summarize notes, generate quizzes, and understand difficult topics using AI.
 
+## ✨ Features
 
+### 📝 Notes Summarizer
+- Converts lengthy notes into simple, easy-to-understand summaries.
+- Helps students revise important concepts quickly.
 
-\## ✨ Features
+### ❓ Quiz Generator
+- Generates multiple-choice questions from notes or topics.
+- Provides answers and explanations to support learning.
 
+### 🤖 AI Tutor
+- Answers students' questions.
+- Explains concepts according to the selected learning level.
+- Supports beginner learning, university studies, and exam revision.
 
+## 🛠️ Technologies Used
 
-\### 📝 Notes Summarizer
+- Python
+- Streamlit
+- Groq API
+- Python-dotenv
 
-\- Converts lengthy notes into simple, easy-to-understand summaries.
-
-\- Helps students revise important concepts quickly.
-
-
-
-\### ❓ Quiz Generator
-
-\- Generates multiple-choice questions from notes or topics.
-
-\- Provides answers and explanations to support learning.
-
-
-
-\### 🤖 AI Tutor
-
-\- Answers students' questions.
-
-\- Explains concepts according to the selected learning level.
-
-\- Supports beginner learning, university studies, and exam revision.
-
-
-
-\## 🛠️ Technologies Used
-
-\- Python
-
-\- Streamlit
-
-\- Groq API
-
-\- Python-dotenv
-
-
-
-\## 📁 Project Structure
-
-
+## 📁 Project Structure
 
 ```text
-
 ai-studymate/
-
 ├── main.py
-
 ├── requirements.txt
-
 ├── .gitignore
-
-├── .env
-
 └── README.md
-
 ```
 
+**Security:** The `.env` file contains your private API key. Never upload it to GitHub or share it publicly.
 
+## 🚀 Setup Instructions
 
-\*\*Security:\*\* The `.env` file contains your private API key. Never upload it to GitHub or share it publicly.
-
-
-
-\## 🚀 Setup Instructions
-
-
-
-\### 1. Clone the repository
-
-
+### 1. Clone the repository
 
 ```bash
-
 git clone https://github.com/amnazaheer-ctrl/python-ai-engineering-journey.git
-
-```
-
-
-
-\### 2. Open the project directory
-
-
-
-```bash
-
 cd python-ai-engineering-journey
-
 cd "05 Generative-AI/99-Projects/ai-studymate"
-
 ```
 
-
-
-\### 3. Install dependencies
-
-
+### 2. Install dependencies
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
+### 3. Configure your API key
 
-
-\### 4. Configure your API key
-
-
-
-Create a `.env` file in the `ai-studymate` folder and add:
-
-
+Create a `.env` file in the `ai-studymate` folder and add your own key:
 
 ```env
-
-GROQ\_API\_KEY=your\_groq\_api\_key\_here
-
+GROQ_API_KEY=your_groq_api_key_here
 ```
-
-
 
 Replace the placeholder with your own Groq API key. Never share your actual key.
 
-
-
-\### 5. Run the application
-
-
+### 4. Run the application
 
 ```bash
-
 python -m streamlit run main.py
-
 ```
-
-
 
 The application will open in your browser.
 
-
-
-\## 🎯 Project Goal
-
-
+## 🎯 Project Goal
 
 This project demonstrates practical experience with Python, API integration, environment variables, and building interactive AI applications.
 
+## 👩‍💻 Author
 
+GitHub: [amnazaheer-ctrl](https://github.com/amnazaheer-ctrl)
 
-\## 👩‍💻 Author
+---
 
-
-
-GitHub: \[amnazaheer-ctrl](https://github.com/amnazaheer-ctrl)
-
-
-
-\---
-
-
-
-\*Built to make studying smarter and easier!\*
-
+*Built to make studying smarter and easier!*
